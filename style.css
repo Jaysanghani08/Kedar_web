@@ -1,0 +1,84 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+
+.fix{
+    clear: both;
+    overflow: hidden;
+}
+
+header{
+    overflow: hidden;
+    height: 100px;
+}
+
+
+.bgimg{
+    position: absolute;
+    /* top: 0; */
+    height: 10vh;
+    /* width: vh; */
+    /* left: 0; */
+    min-width: 100%;
+    opacity: 0.8;
+    min-height: 100%;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 70px;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    margin: 20px 10px; 
+    margin-top: 8px;
+    height: 60px;
+    font-size: 40px;
+    float: left;
+    color: khaki;
+}
+
+.navarea{
+    float: right;
+    margin: 20px;
+    list-style: none;
+}
+
+.navarea li{
+    display: inline-block;
+    margin: auto 5px;
+    margin-top: 2px;
+    padding-top: 0px;
+}
+
+.navarea li a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 8px;
+    font-size: 20px;
+    letter-spacing: 1.7px;
+}
+
+.navarea li.active a{
+    color: khaki;
+}
+
+.navarea li a:hover{
+    cursor: pointer;
+    color: yellowgreen;
+    /* background-color: white; */
+}
+
+.btn{
+    position: absolute;
+    margin: 25% 30%;
+}
